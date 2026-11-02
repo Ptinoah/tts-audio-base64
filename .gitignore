@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Fichiers générés par le skill (audio, chaînes encodées, chronologies)
+sortie/
+out/
+*.wav
+*.mp3
+*.opus
+*.ogg
+*.b32.txt
+*.b64.txt
+*.b85.txt
+*.b91.txt
+*.datauri.txt
+*.timeline.json
+
+# Le fichier d'entrée du cas de test de décodage doit rester versionné
+!evals/decode-existing-base64/files/chaine.b64.txt
+
+# Paquet du skill : à joindre aux Releases GitHub plutôt qu'au dépôt
+*.skill
+
+# Cache du modèle Kokoro, si TTS_AUDIO_CACHE pointe dans le dépôt
+.cache/
+*.onnx
+*.onnx.part
+
+# Résultats des tests (claude plugin eval, dossiers de travail)
+evals/results/
+*-workspace/
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

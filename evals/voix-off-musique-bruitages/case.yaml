@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: voix-off-musique-bruitages
+expected_outcome: |
+  Le skill génère la voix avec le texte exact, une musique lo-fi sous la voix, un ding après « encore »
+  et un clic juste avant « on redémarre », placés par marqueurs dans le texte. Il livre l'audio final,
+  la chronologie JSON (début et fin de chaque phrase, instant des bruitages) et les pistes séparées
+  voix / musique / bruitages. Le narrateur est masculin avec la voix française dérivée fm_siwis (pas une
+  voix étrangère avec accent). Il explique honnêtement ce qui n'a pas pu être suivi : pas d'accent du
+  sud, ton non contrôlable.

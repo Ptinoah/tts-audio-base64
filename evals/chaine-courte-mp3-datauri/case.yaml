@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: chaine-courte-mp3-datauri
+expected_outcome: |
+  Comme l'utilisateur se plaint de chaînes trop longues et veut l'intégrer dans une balise audio,
+  le skill choisit un format compressé (MP3 ou Opus) plutôt que du WAV, et produit un data URI
+  (data:audio/mpeg;base64,… ou data:audio/ogg;base64,…) dans un fichier. La chaîne est bien plus
+  courte que celle d'un WAV (moins de 60 000 caractères pour cette phrase) et se décode en un
+  fichier audio valide et complet. La réponse donne un exemple de balise audio sans coller la chaîne.

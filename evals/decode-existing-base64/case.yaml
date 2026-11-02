@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: decode-existing-base64
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  La chaîne base64 du fichier joint est décodée en un fichier WAV lisible. La réponse indique la
+  durée de l'audio, d'environ 0,8 seconde.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: message-en-code32-wrapped
+expected_outcome: |
+  Un WAV en anglais avec une voix féminine dit « System check complete ». La chaîne base32
+  (alphabet A-Z et 2-7, padding =) est écrite dans un fichier, découpée en lignes de 64 caractères
+  au maximum, et se décode en un WAV identique à l'original.

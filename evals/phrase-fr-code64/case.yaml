@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: phrase-fr-code64
+expected_outcome: |
+  Un fichier WAV en français prononçant la phrase demandée est produit, ainsi qu'un fichier texte
+  contenant la chaîne base64 de ce WAV. La chaîne décodée redonne exactement le WAV. Comme la chaîne
+  fait des dizaines de milliers de caractères, elle est livrée en fichier et n'est pas collée en
+  entier dans la réponse.

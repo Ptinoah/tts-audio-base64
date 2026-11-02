@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: json-ascii-le-plus-compact
+expected_outcome: |
+  Le skill agit d'abord sur le format audio (Opus en qualité compacte), qui est le vrai levier de taille.
+  Pour l'encodage, il écarte basE91 parce qu'il contient des guillemets doubles, et retient base85
+  (décodable nativement en Python avec base64.b85decode, sans " ni \). La chaîne est vérifiée par
+  aller-retour, ne contient ni " ni \, et fait moins de 10 000 caractères. La réponse indique comment
+  la décoder côté serveur.

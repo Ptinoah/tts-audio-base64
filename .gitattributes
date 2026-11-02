@@ -1,0 +1,8 @@
+# Fins de ligne LF dans le dépôt, même depuis Windows
+* text=auto eol=lf
+
+# Le script shell des tests doit garder des fins de ligne LF pour s'exécuter
+*.sh text eol=lf
+
+# Vecteurs de voix : binaires, jamais convertis ni comparés comme du texte
+*.bin binary
