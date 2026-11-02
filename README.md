@@ -60,7 +60,7 @@ Exemple de `script.txt` :
 
 ```
 [sfx shimmer] [pause 0.9] Stop réviser à la bibliothèque. [pause 0.3] Fais-y la fête. [sfx pop] [pause 0.4]
-Les filles de {l'HEH|l'Ache E Ache}… et les gars aussi, bon. [sfx clap] [pause 0.5]
+Les amis de {l'HEH|l'Ache E Ache}… et les inconnus aussi, bon. [sfx clap] [pause 0.5]
 Hier, j'ai maté {Project X|Prodjèkt ex}. [sfx footsteps 4] [pause 1.1] [sfx swoosh]
 ```
 
